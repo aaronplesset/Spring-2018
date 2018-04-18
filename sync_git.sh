@@ -6,9 +6,11 @@ do
 	else
 		echo $file >>.gitignore
 		echo "added" $file "to .gitignore" 
-fi
-done 
+	fi
+done
 
+git git rm -r --cached .
+git add .
 git commit -a -m "Just an update"
 git pull upstream master
 git push origin master
