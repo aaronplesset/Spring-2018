@@ -99,3 +99,10 @@ ENV/
 
 # mypy
 .mypy_cache/
+00-Syllabus.ipynb
+01-Statistical-Data-Science.ipynb
+02-Data-and-Uncertainty.ipynb
+03-Data-collection-and-manipulation.ipynb
+04-Pandas-Data-Frame.ipynb
+05-Data-Frame-and-Visualization.ipynb
+Assignment-1.ipynb
